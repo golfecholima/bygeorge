@@ -39,9 +39,6 @@ address a:hover,
 address a:active,
 address a:focus {
   background: #9dbcd0 none repeat scroll 0 0; }
-
-address a:focus {
-  background: #9dbcd0 none repeat scroll 0 0; }
 ```
 
 1. Fessa fas petitur
