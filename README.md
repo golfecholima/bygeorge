@@ -24,3 +24,13 @@ A personal static site using [Pelican](http://docs.getpelican.com/en/3.6.3/index
 3. Change to your `pelican` directory and clone the repository: `git clone [link-to-your-repository]`.
 4. Carry on with development and push changes back to the remote on GitHub. 
 
+# To Do ...
+
+* Style changes
+	* Image handling
+	* Captions
+	* Explore menu options
+* Social links
+* IFTTT integrations
+* CV/résumé
+
