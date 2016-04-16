@@ -1,0 +1,236 @@
+@import 'normalize.css';
+@import 'fonts.css';
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import 'skeleton.css';
+@import 'pygment.css';
+
+/* Color palette 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+$lightest: #dedbe6;
+$light: #b9b8c6;
+$darkest: #303038;
+$darker: #4a5f7c;
+$blue: #9dbcd0;
+$lightblue: #e8f3f9;
+
+/* Other variables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+$border-radius: 5px;
+
+/* Defaults
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+body {
+	background-color: #f9f9f9;
+}
+
+ul {
+	list-style: none;
+}
+
+/* Body copy
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.container {
+	font-family: 'cp', Courier, monospace;
+	color: $darkest;
+	padding: 3rem 2rem;
+}
+
+hr {
+	margin: 0 0 3.5rem 0;
+}
+
+em {
+	font-family: 'cp-em', Courier, monospace;
+}
+
+pre {
+	font-family: 'cp-code', Courier, monospace;
+}
+
+strong {
+	// font-family: 'cp-strong', Courier, monospace;
+}
+
+img {
+	max-width: 100%;
+}
+
+li a,
+p a,
+address a {
+	&:link {
+		color: $darkest;
+		text-decoration: none;
+		box-shadow: 0 -6px 0 $blue inset;
+		transition: background 0.15s cubic-bezier(0.33, 0.66, 0.66, 1) 0s;
+	}
+	&:visited {
+		color: $darkest;
+	}
+	&:hover,
+	&:active,
+	&:focus {
+		background: $blue none repeat scroll 0 0;
+	}
+}
+
+h1 a,
+h2 a,
+h3 a {
+	&:link {
+		color: $darkest;
+		text-decoration: none;
+		transition: color 0.15s cubic-bezier(0.33, 0.66, 0.66, 1) 0s;
+	}
+	&:visited {
+		color: $darkest;
+	}
+	&:hover,
+	&:active,
+	&:focus {
+		color: $blue;
+	}
+}
+
+blockquote {
+    background-color: $light;
+    border-radius: $border-radius;
+    padding: 0.5rem 1rem;
+    p {
+    	margin: 0;
+    }
+}
+
+table {
+	min-width: 100%;
+	thead {
+		background-color: $blue;
+		color: white;
+		tr {
+			th {
+				text-align: center;
+				font-weight: normal;
+				padding: 0.5rem;
+			}			
+		}
+	}
+
+	tbody {
+		tr {
+			&:nth-child(odd) {
+				background-color: $lightest;
+			}
+			td {
+				padding: 0.5rem;
+			}
+		}
+	}
+}
+
+address {
+	font-family: 'cp-em', Courier, monospace;
+}
+
+/* Header & nav
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+header#banner {
+	font-family: "Fjalla One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+}
+
+nav#menu {
+	ul {
+		list-style: none;
+		text-align: center;
+	}
+}
+
+ul#post-list{
+	list-style: none;
+	li {
+		margin: 0 0 0 0;
+	}
+}
+
+h2.entry-title a {
+	&:link {
+		color: $darkest;
+		text-decoration: none;
+		transition: color 0.15s cubic-bezier(0.33, 0.66, 0.66, 1) 0s;
+	}
+	&:visited {
+		color: $darkest;
+	}
+	&:hover,
+	&:active,
+	&:focus {
+		color: $darkest;
+	}
+}
+
+p.paginator {
+	text-align: center;
+}
+
+/* Layout
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.border {
+	display: block;
+	height: 1rem;
+	width: 1rem;
+}
+.topleft {
+	border-right: 0.2rem solid $lightest;
+	border-bottom: 0.2rem solid $lightest;
+	margin: -1.2rem 0 0 -1.6rem;
+	float: left;
+}
+.topright {
+	border-left: 0.2rem solid $lightest;
+	border-bottom: 0.2rem solid $lightest;
+	margin: -1.2rem -1.6rem 0 0;
+	float: right;
+}
+.botleft {
+	border-right: 0.2rem solid $lightest;
+	border-top: 0.2rem solid $lightest;
+	margin: 0 0 -1.2rem -1.6rem;
+	float: left;
+}
+.botright {
+	border-left: 0.2rem solid $lightest;
+	border-top: 0.2rem solid $lightest;
+	margin: 0 -1.6rem -1.2rem 0;
+	float: right;
+}
+
+.highlight {
+	padding: 0.7rem 1rem;
+	border-radius: $border-radius;
+	pre {
+		margin: 0;
+	}
+}
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
