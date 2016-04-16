@@ -1,9 +1,9 @@
 # bygeorge
-Personal static site using Pelican
+A personal static site using [Pelican](http://docs.getpelican.com/en/3.6.3/index.html).
 
-# How to make this work
+# How To
 
-## Set up virtualenv and install Pelican
+### Set up virtualenv and install Pelican
 
 (Just do this. Small headache now is better than chronic migraine later.)
 
@@ -15,13 +15,13 @@ Personal static site using Pelican
 6. Type: `pip install pelican markdown typogrify`
 7. Type: `pelican-quickstart` and follow the instructions. Be sure to specify a directory where you want your site to live otherwise all your site files will be dumped into your virtualenv root. (More info [here](http://docs.getpelican.com/en/3.6.3/install.html).)
 
-## Working with a remote GitHub repository and a second computer
+### Working with a remote GitHub repository and a second computer
 
 1. Upload whatever directory you chose to build your site in (Step 7 above) to a fresh repository.
 2. On your second machine follow steps 1 through 6.
 3. Change to your `pelican` directory and clone the repository: `git clone [link-to-your-repository]`.
 4. Carry on with development and push changes back to the remote on GitHub.
 
-## Word of Caution w/ CodeKit
+## Word of Caution for CodeKit Users
 
 CodeKit will generate HTML output from Markdown (so does Pelican), duplicating the efforts and typically into the wrong directory. Turn this off to avoid utter madness.
