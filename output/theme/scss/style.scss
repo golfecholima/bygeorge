@@ -12,7 +12,7 @@ $light: #b9b8c6;
 $darkest: #303038;
 $darker: #4a5f7c;
 $blue: #9dbcd0;
-$lightblue: #e8f3f9;
+$lightblue: #bfd4e1;
 
 /* Other variables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -30,6 +30,10 @@ ul {
 	list-style: none;
 }
 
+p {
+	line-height: 2rem;
+}
+
 /* Body copy
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
@@ -39,7 +43,7 @@ ul {
 }
 
 hr {
-	margin: 0 0 3.5rem 0;
+	margin: -1.5rem 0 3.5rem 0;
 }
 
 em {
@@ -132,6 +136,27 @@ table {
 
 address {
 	font-family: 'cp-em', Courier, monospace;
+	margin-bottom: 2.5rem;
+}
+
+h6 {
+	margin-top: -2.4em;
+	float: right;
+	color: $light;
+}
+
+h6 a {
+	&:link {
+		color: $blue;
+	}
+	&:visited {
+		color: $lightblue;
+	}
+	&:hover,
+	&:active,
+	&:focus {
+		color: $lightblue;
+	}
 }
 
 /* Header & nav
@@ -210,11 +235,12 @@ p.paginator {
 }
 
 .highlight {
-	padding: 0.7rem 1rem;
+	padding: 1.7rem 2rem;
 	border-radius: $border-radius;
 	pre {
 		margin: 0;
 	}
+	margin-bottom: 2.5rem;
 }
 
 /* Media Queries

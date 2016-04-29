@@ -1,63 +1,28 @@
-Title: Get in touch
-Date: 2016-02-02 15:58
-Modified: 2016-02-02 15:58
-Category: Test
-Tags: pelican, styling, publishing
-Slug: 
-Authors: George LeVines, Someone Else
-Summary: Short version for index and feeds
+Title: Contact
+Category: contact
+Tags: contact
+Slug: contact
+Authors: George LeVines
+Summary: Get in touch
 
-# In English Please!!! (really acts as a subhead)
+![Crow on a wire](https://c1.staticflickr.com/3/2599/3876681779_00d8b55207_o.jpg "Crow on a wire")
+###### ([Andrew Smith](https://www.flickr.com/photos/andrewasmith/)/Flickr)
 
-![Screen reader important](http://lorempixel.com/g/1200/800/ "Some image titling, woot")
-###### This is the nice little caption. Look at it. Nobody reads these suckers. LOOK!
+### E-mail
+---
 
-## Animus inspirare temporis in inania
+<george.levines@gmail.com>
 
-Lorem markdownum bracchia frater pulvereamque sponte facere; dum angues palpitat
-longam. Statuistis potui; *ne timeam* unus quae dominae, ope nova fulminis vidit
-simul? Pendens nasci, idem pullo matres, non remis suo auspicio minata. Forma
-sui quod **mergitur** Diana. Spicula visa ille durescit
-[namque](http://www.youtube.com/watch?v=MghiBW3r65M); lustro adspicerent nec,
-derant.
+### Elsewhere on the internet
+---
 
-1. Fessa fas petitur
-2. Membra omnem quia
-3. Quamvis ait in teneris bello timoris
-4. Candida nec manibus nam remi sic
-5. Illa arborei caeco
-
-## Et omen sed tinnitibus soror
-
-Rostrisque cantu non, verum annus tinnitibus. Boves generi aras parentis. Est
-ipsis rex oculis, cava recuso utque. Erit data Qui creditus gramine nequiquam
-aevum, [e virtus](http://jaspervdj.be/)! Tempora non vulnere poterat, et Argum,
-quaerenti exterrita glaebam ede, et?
-
-| hed 1 | hed 2 | hed 3 |
-| ----- | ------- | ------ |
-| thing 1 | thing 2 | thing 3 |
-| thing 1a | thing 1b | thing 1c |
-
-## Inficit tibi gravem prior resoluta et suos
-
-Aut atra et! Tectus refluitque putat fecerat et undis: silva ardet; est. Fumi
-est nec vidit est servat putat, pennas huic laeva. Aede coget, sortis et
-conubia?
-
-## Est natas caeli constat hunc luminis
-
-Perseus et currum se crescit quoniam in iuvenis petiti Semiramio. Nomen cogis
-excutis in curvataque **conscia per**, primas **verum**, undas et hospita sub,
-*et* nostros sentit.
-
-1. Maestam ait si salve arbor flores pinus
-2. Vix stratis atque rus eque ludit sua
-3. Plura quo a pulvere muneraque serpens nam
-4. Partim contrarius audire limina umerumque gurgite Curetida
-5. Quibus cum villis gentes utque et atque
-
-Subiere faveant abstulerat Iove sic leviter inquit, quam flumina ille induruit
-divisque nimium, sepulcri, ea. Pactus ni unda herbas, interdumque monet
-tendensque. Ictu auras egregius vicinos causam optatos summam. Notus satis, ubi
-demens media convivia, altaque numeratur aris innumeraeque movet vidi quae adit.
+- [GitHub](https://github.com/golfecholima/)
+- [Twitter](https://twitter.com/rhymeswthgeorge)
+- [LinkedIn](https://www.linkedin.com/in/georgelevines)
+- [Facebook](https://www.facebook.com/georgelevines)
+- [Google+](https://www.facebook.com/georgelevines)
+- [Reddit](https://www.reddit.com/user/georgethegoat)
+- [MuckRock](https://www.muckrock.com/accounts/profile/george.levines/)
+- [Pinboard](https://pinboard.in/u:rhymeswthgeorge/)
+- [Flickr](https://www.flickr.com/photos/pterodactylphoto/)
+- [Instagram](https://www.instagram.com/georgethegoat/)

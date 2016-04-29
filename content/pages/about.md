@@ -11,17 +11,19 @@ His work includes time at Atlantic Media's [Defense One](http://www.defenseone.c
 
 He hails from Central Massachusetts, not far form where the Squannacook and Nashua rivers meet. Send George an [email](mailto:george.levines@gmail.com) or a tweet [@rhymeswthgeorge](https://twitter.com/intent/tweet?text=%40rhymeswthgeorge).
 
-### Find George elsewhere on the internet
+### Find George on the internet
 ---
 
-- [GitHub]()
-- [Twitter]()
-- [LinkedIn]()
-- [Facebook]()
-- [Google+]()
-- [Reddit]()
-- [MuckRock]()
-- [Pinboard]()
+- [GitHub](https://github.com/golfecholima/)
+- [Twitter](https://twitter.com/rhymeswthgeorge)
+- [LinkedIn](https://www.linkedin.com/in/georgelevines)
+- [Facebook](https://www.facebook.com/georgelevines)
+- [Google+](https://www.facebook.com/georgelevines)
+- [Reddit](https://www.reddit.com/user/georgethegoat)
+- [MuckRock](https://www.muckrock.com/accounts/profile/george.levines/)
+- [Pinboard](https://pinboard.in/u:rhymeswthgeorge/)
+- [Flickr](https://www.flickr.com/photos/pterodactylphoto/)
+- [Instagram](https://www.instagram.com/georgethegoat/)
 
 ### Marginalia
 ---

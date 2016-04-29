@@ -16,6 +16,9 @@ body {
 ul {
   list-style: none; }
 
+p {
+  line-height: 2rem; }
+
 /* Body copy
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
@@ -24,7 +27,7 @@ ul {
   padding: 3rem 2rem; }
 
 hr {
-  margin: 0 0 3.5rem 0; }
+  margin: -1.5rem 0 3.5rem 0; }
 
 em {
   font-family: 'cp-em', Courier, monospace; }
@@ -96,7 +99,20 @@ table {
     padding: 0.5rem; }
 
 address {
-  font-family: 'cp-em', Courier, monospace; }
+  font-family: 'cp-em', Courier, monospace;
+  margin-bottom: 2.5rem; }
+
+h6 {
+  margin-top: -2.4em;
+  float: right;
+  color: #b9b8c6; }
+
+h6 a:link {
+  color: #9dbcd0; }
+h6 a:visited {
+  color: #bfd4e1; }
+h6 a:hover, h6 a:active, h6 a:focus {
+  color: #bfd4e1; }
 
 /* Header & nav
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -157,8 +173,9 @@ p.paginator {
   float: right; }
 
 .highlight {
-  padding: 0.7rem 1rem;
-  border-radius: 5px; }
+  padding: 1.7rem 2rem;
+  border-radius: 5px;
+  margin-bottom: 2.5rem; }
   .highlight pre {
     margin: 0; }
 
