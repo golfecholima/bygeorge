@@ -43,7 +43,7 @@
     <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <div class="section">
+    <section>
         <div class="container">
             <div class="row">
                 <span class="border topleft"></span><span class="border topright"></span>
@@ -52,8 +52,8 @@
                     </header><!-- /#banner -->
             </div>    
         </div>
-    </div>
-    <div class="section">
+    </section>
+    <section>
         <div class="container">
             <div class="row">
                 <nav id="menu"><ul>
@@ -75,23 +75,21 @@
                 <hr>
             </div>
         </div>
-    </div>
-    <div class="section">
-        {% block content %}
-        {% endblock %}
-    </div>
-    <div class="section">
+    </section>
+    {% block content %}
+    {% endblock %}
+    <section>
         <div class="container">
             <div class="row">
-                    <footer id="contentinfo" class="body">
-                            <address id="about" class="vcard body">
-                            Powered by <a href="http://getpelican.com/">Pelican</a>,
-                            which takes great advantage of <a href="http://python.org">Python</a>.
-                            </address><!-- /#about -->
-                    </footer><!-- /#contentinfo -->
+                <footer id="contentinfo" class="body">
+                        <address id="about" class="vcard body">
+                        Powered by <a href="http://getpelican.com/">Pelican</a>,
+                        which takes great advantage of <a href="http://python.org">Python</a>.
+                        </address><!-- /#about -->
+                </footer><!-- /#contentinfo -->
                 <span class="border botleft"></span><span class="border botright"></span>    
             </div>
         </div>
-    </div>
+    </section>
 </body>
 </html>
