@@ -35,6 +35,7 @@
         {% if TAG_FEED_RSS and tag %}
         <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS|format(tag.slug) }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
         {% endif %}
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/style.css">
         {% endblock head %}
 </head>
@@ -54,27 +55,35 @@
         </div>
     </section>
     <section>
-        <div class="container">
-            <div class="row">
-                <nav id="menu"><ul>
-                {% for title, link in MENUITEMS %}
-                    <li><a href="{{ link }}">{{ title }}</a></li>
-                {% endfor %}
-                {% if DISPLAY_PAGES_ON_MENU %}
-                  {% for p in pages %}
-                    <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
-                  {% endfor %}
-                {% else %}
-                  {% if DISPLAY_CATEGORIES_ON_MENU %}
-                    {% for cat, null in categories %}
-                      <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
-                    {% endfor %}
-                  {% endif %}
-                {% endif %}
-                </ul></nav><!-- /#menu -->
-                <hr>
+        <nav id="menu">
+            <div class="container">
+                <div class="row">
+                    <div class="two-thirds column">
+                        <ul>
+                        {% for title, link in MENUITEMS %}
+                            <li><a href="{{ link }}">{{ title }}</a></li>
+                        {% endfor %}
+                        {% if DISPLAY_PAGES_ON_MENU %}
+                          {% for p in pages %}
+                            <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
+                          {% endfor %}
+                        {% else %}
+                          {% if DISPLAY_CATEGORIES_ON_MENU %}
+                            {% for cat, null in categories %}
+                              <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
+                            {% endfor %}
+                          {% endif %}
+                        {% endif %}
+                        </ul>
+                    </div>
+                    <div class="one-third column">
+                        <ul>
+                            <li class="copyleft"><a href="https://en.wikipedia.org/wiki/Copyleft" class="copyleft">Copyleft <i class="fa fa-copyright fa-flip-horizontal"></i> 2016</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </div>
+        </nav><!-- /#menu -->
     </section>
     {% block content %}
     {% endblock %}

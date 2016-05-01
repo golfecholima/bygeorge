@@ -116,15 +116,51 @@ h6 a:visited {
 h6 a:hover, h6 a:active, h6 a:focus {
   color: #bfd4e1; }
 
+td a:link {
+  color: #303038;
+  text-decoration: none;
+  transition: color 0.15s cubic-bezier(0.33, 0.66, 0.66, 1) 0s; }
+td a:visited {
+  color: #303038; }
+td a:hover, td a:active, td a:focus {
+  color: #9dbcd0; }
+
 /* Header & nav
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 header#banner {
   font-family: "Fjalla One", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center; }
 
-nav#menu ul {
-  list-style: none;
-  text-align: center; }
+nav#menu {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3rem;
+  z-index: 1; }
+  nav#menu div.row {
+    background-color: #9dbcd0;
+    padding: 0rem 1rem 0 1rem; }
+  nav#menu ul {
+    list-style: none; }
+    nav#menu ul li {
+      display: inline-block; }
+      nav#menu ul li.copyleft {
+        float: right; }
+      nav#menu ul li a {
+        color: white;
+        line-height: 2.5rem; }
+        nav#menu ul li a:link {
+          color: white;
+          text-decoration: none;
+          box-shadow: 0 -6px 0 white inset;
+          transition: background 0.15s cubic-bezier(0.33, 0.66, 0.66, 1) 0s;
+          transition: color 0.15s cubic-bezier(0.33, 0.66, 0.66, 1) 0s; }
+        nav#menu ul li a:visited {
+          color: white; }
+        nav#menu ul li a:hover, nav#menu ul li a:active, nav#menu ul li a:focus {
+          background: white none repeat scroll 0 0;
+          color: #303038; }
 
 ul#post-list {
   list-style: none; }
