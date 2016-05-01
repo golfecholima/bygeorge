@@ -29,7 +29,9 @@ A personal static site using [Pelican](http://docs.getpelican.com/en/3.6.3/index
 * Style changes
 	* Image handling
 	* Explore menu options
-		* Idea: Stick footer w/ 3 button nav.
+		* Idea: Fixed footer w/ 3 button nav.
 * IFTTT integrations
+	* Take a photo >> post to blog
+	* Tag an Evernote >> post to somewhere
 * CV/résumé
 
