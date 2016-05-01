@@ -167,6 +167,9 @@ ul#post-list {
   ul#post-list li {
     margin: 0 0 0 0; }
 
+h1.page-title {
+  letter-spacing: 2rem; }
+
 h2.entry-title a:link {
   color: #303038;
   text-decoration: none;
