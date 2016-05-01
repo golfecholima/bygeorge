@@ -7,8 +7,13 @@ SITENAME = u'by George'
 SITEURL = 'http://bygeorge.xyz'
 TIMEZONE = 'America/New_York'
 
+# Publishing
 PATH = 'content'
-DEFAULT_DATE_FORMAT = '%a %d %B %Y'
+DEFAULT_DATE = 'fs'
+DEFAULT_DATE_FORMAT = '%A, %B %d, %Y'
+SLUGIFY_SOURCE = 'title'
+SUMMARY_MAX_LENGTH = 250
+LOAD_CONTENT_CACHE = False # Content Cache (Off for dev/On for live)
 
 # can be useful in development, but set to False when you're ready to publish
 RELATIVE_URLS = True
@@ -37,8 +42,7 @@ DEFAULT_PAGINATION = 1
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-# Content Cache (Off for dev/On for live)
-LOAD_CONTENT_CACHE = False
-
 THEME = "themes/bygeorge"
-CSS_FILE = 'style.css'
+CSS_FILE = "style.css"
+
+TWITTER_USERNAME = "rhymeswthgeorge"
