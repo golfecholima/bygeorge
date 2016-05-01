@@ -34,5 +34,5 @@ A personal static site using [Pelican](http://docs.getpelican.com/en/3.6.3/index
 	* Take a photo >> post to blog
 	* Tag an Evernote >> post to somewhere
 * CV/résumé
-* Look into Piwik analytics
-
+* Look into [Piwik analytics](https://piwik.org/)
+* Explore [plugins](https://github.com/getpelican/pelican-plugins)
