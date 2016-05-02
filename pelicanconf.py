@@ -14,11 +14,17 @@ DEFAULT_DATE_FORMAT = '%A, %B %d, %Y'
 SLUGIFY_SOURCE = 'title'
 SUMMARY_MAX_LENGTH = 250
 LOAD_CONTENT_CACHE = False # Content Cache (Off for dev/On for live)
+DEFAULT_PAGINATION = 1
 
 # can be useful in development, but set to False when you're ready to publish
 RELATIVE_URLS = True
 
+# Language
 DEFAULT_LANG = u'en'
+
+# Plugins
+PLUGIN_PATHS = ['plugins']
+## PLUGINS = ['textile_reader']
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -36,8 +42,6 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
-
-DEFAULT_PAGINATION = 1
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
