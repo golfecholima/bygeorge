@@ -23,8 +23,8 @@ RELATIVE_URLS = True
 DEFAULT_LANG = u'en'
 
 # Plugins
-PLUGIN_PATHS = ['plugins']
-## PLUGINS = ['textile_reader']
+PLUGIN_PATHS = ['pelican-plugins']
+PLUGINS = ['textile_reader']
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
